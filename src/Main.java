@@ -51,13 +51,6 @@ public class Main {
         doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
 
-        //the number of kids in your family:  int numberKids = 2;
-        //the answer to is it raining? :  Boolean isRaining = false;
-        //the price of a gallon of gas :  double priceGas = 2.50;
-        //your favorite number :  int favoritNumber = 7;
-        //your shoe size:  double shoesize = 10.5;
-        //your birth month:  string birthMonth = “March”
-        //your full name:  string fullName = “Aidan Dooley”
 
         int numberKids = 3;
         System.out.println("The number of kids in my family is " + numberKids);
@@ -65,20 +58,19 @@ public class Main {
         boolean isRaining = false;
         System.out.println("It is " + isRaining + " to say it is raining.");
 
+        double priceGas = 2.50;
+        System.out.println("The price of a gallon of gas is " + priceGas);
+
         int favoritNumber = 5;
         System.out.println("My favorit number is " + favoritNumber);
 
-        //double priceGas = 0;
-        //int favoritNumber = 0;
-        //double shoeSize = 0;
-        //String birthMonth = 0;
-        //String fullName = 0;
+        double shoeSize = 10.5;
+        System.out.println("My shoe size is " + shoeSize);
 
+        String birthMonth = "March";
+        System.out.println("My birth month is " + birthMonth);
 
-
-
-
-
-
+        String fullName = "Aidan Dooley";
+        System.out.println("My shoe size is " + fullName);
     }
 }
